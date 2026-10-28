@@ -1,0 +1,9 @@
+# dev scratch / internal notes: not shipped, not committed
+_work/
+design/
+HANDOFF-*.md
+lib/client.js.bak_*
+lib/*.bak
+*.tgz
+node_modules/
+.cache/

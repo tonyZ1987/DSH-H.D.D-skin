@@ -1,0 +1,11 @@
+# Fairy · H.D.D 皮肤（Host + Client）
+#
+# 这一行是全部：host 半边只注册 /fairy-skin/* 两条只读路由，
+# client 半边（lib/client.js）由 DSH 的 dsh.client 机制加载。
+#
+# 装法见 install.ps1 或 README；卸法见 uninstall.ps1。
+# ★ 新增插件后必须重启 DSH（桌面端的注入表在宿主启动时收集一次），
+#   仅刷新页面不够。
+- insert:
+    - id: fairy-skin
+      name: 'fairy-dsh-skin'

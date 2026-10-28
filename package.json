@@ -1,0 +1,63 @@
+{
+  "name": "fairy-dsh-skin",
+  "version": "1.0.0-beta.0",
+  "description": "Fairy H.D.D skin for DeepSeek Harness: Hollow Zero-inspired glass UI, HDD wireframe hero with reflection, status eye that mirrors the agent state, and a full sidebar/composer restyle.",
+  "keywords": [
+    "dsh",
+    "dsh-plugin",
+    "deepseek-harness",
+    "skin",
+    "theme",
+    "ui",
+    "hdd",
+    "hollow-zero"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tonyZ1987/DSH-H.D.D-skin.git"
+  },
+  "homepage": "https://github.com/tonyZ1987/DSH-H.D.D-skin#readme",
+  "bugs": {
+    "url": "https://github.com/tonyZ1987/DSH-H.D.D-skin/issues"
+  },
+  "author": "tonyZ1987",
+  "license": "CC-BY-NC-4.0",
+  "type": "module",
+  "main": "lib/index.js",
+  "exports": {
+    ".": "./lib/index.js",
+    "./client": "./lib/client.js",
+    "./package.json": "./package.json"
+  },
+  "files": [
+    "lib/index.js",
+    "lib/client.js",
+    "lib/wallpaper-server.mjs",
+    "cordis.patch.yml",
+    "install.ps1",
+    "uninstall.ps1",
+    "README.md",
+    "DESIGN.md",
+    "CHANGELOG.md",
+    "CREDITS.md",
+    "LICENSE"
+  ],
+  "engines": {
+    "node": ">=22",
+    "dsh": ">=0.1.7-rc.1"
+  },
+  "dsh": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    },
+    "client": {
+      "platform": "web",
+      "immediately": true,
+      "inject": []
+    }
+  },
+  "publishConfig": {
+    "access": "public",
+    "registry": "https://registry.npmjs.org/"
+  }
+}

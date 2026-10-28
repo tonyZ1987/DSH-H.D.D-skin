@@ -1,0 +1,35 @@
+{
+  "name": "fairy-dsh-skin",
+  "title": "tonyZ1987/DSH-H.D.D-skin",
+  "description": {
+    "en": "Fairy H.D.D skin for DSH: Hollow Zero glass panels, HDD wireframe hero with a mirrored reflection, a status eye that mirrors the agent state, and a full sidebar/composer restyle.",
+    "zh": "把 DSH 换成《绝区零》H.D.D 那套玻璃面板：HDD 线框球 + 镜面倒影、随 agent 状态变化的眼徽、侧栏与输入框全套换皮。"
+  },
+  "homepage": "https://awesome-dsh-plugin.com/p/tonyZ1987/DSH-H.D.D-skin/",
+  "repository": {
+    "url": "https://github.com/tonyZ1987/DSH-H.D.D-skin"
+  },
+  "metadata": {
+    "category": "theme",
+    "keywords": [
+      "skin",
+      "theme",
+      "hdd",
+      "hollow-zero"
+    ],
+    "labels": [],
+    "sortKeys": {}
+  },
+  "versions": [
+    {
+      "version": "1.0.0-beta.0",
+      "publishTimestamp": 1793260000,
+      "source": {
+        "type": "npm"
+      },
+      "engines": {
+        "dsh": ">=0.1.7-rc.1"
+      }
+    }
+  ]
+}
